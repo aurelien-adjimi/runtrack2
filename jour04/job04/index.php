@@ -1,6 +1,6 @@
 <?php
 
-var_dump($_GET);
+var_dump($_POST);
 
 
 
@@ -15,23 +15,22 @@ var_dump($_GET);
     <title>Document</title>
 </head>
 <body>
-<form action="#" method="get">
+<form action="#" method="post">
         <input type="text" name="Nom">
         <input type="text" name="Prenom">
         <input type="submit" value="Entrer">
     </form>
-    <table border="1">
+<table border="1">
         <thead>
             <tr>
                 <th>Argument</th>
                 <th>Valeur</th>
-</tr>
-
-</thead>
-<tbody>
+            </tr>
+        </thead>
+    <tbody>
 <?php 
 
-foreach ($_GET as $key => $value) {
+foreach ($_POST as $key => $value) {
     echo '
     <tr>
         <td>'.$key.'</td>
@@ -42,6 +41,6 @@ foreach ($_GET as $key => $value) {
 
 ?>
     </tbody>
-    </table>
+</table>
 </body>
 </html>
