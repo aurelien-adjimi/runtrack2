@@ -27,7 +27,7 @@ $dic = [
                 }
             }
             foreach ($dic['voyelles'] as $voyelles) {
-                if ($voyelles == $str[$i]); {
+                if ($voyelles == $str[$i]) {
                     $count_voy++;
                 }
             }
