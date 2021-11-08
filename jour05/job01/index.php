@@ -1,8 +1,8 @@
 <?php 
 
-function echoText ($phrase = "Hello LaPlateforme!") {
+function Hello ($phrase = "Hello LaPlateforme!") {
     echo ($phrase);
 }
- echoText ();
+ Hello ();
 
 ?>
