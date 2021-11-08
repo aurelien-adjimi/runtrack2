@@ -1,14 +1,17 @@
 <?php
 
 function bonjour ($jour) {
-if ($jour = true) {
+if ($jour == true) {
 echo "Bonjour";
 
-} elseif ($jour = false) {
+} elseif ($jour == false) {
 echo "Bonsoir";
 }
 }
+//$str = false; 
+//bonjour ($str); 
 
-
+//$str = true;
+//bonjour ($str);
 
 ?>
