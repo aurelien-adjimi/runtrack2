@@ -10,5 +10,5 @@ if ($str[$i] == $char) {
     return $count;
 }
 
-echo occurences ("bonjour", "o");
+//echo occurences ("bonjour", "o");
 ?>
