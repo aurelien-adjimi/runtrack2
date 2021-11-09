@@ -7,7 +7,7 @@ if(isset($_POST["Reset"])) {
 }
 
 if(isset($_COOKIE['nbvisites'])) {
-    setcookie ('nbvisites', $_COOKIE['nbvisites']+1 , time()+ 3600);
+    setcookie ('nbvisites', $_COOKIE['nbvisites']+1);
 
 }
 
