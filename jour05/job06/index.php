@@ -30,6 +30,7 @@
 }
 
 /* lever le commentaire pour afficher*/ 
+
 /* $test = 'Allez Marseille!';
 echo leetspeak($test); */
 
