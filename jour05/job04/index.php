@@ -21,6 +21,6 @@ return $result;
 
 }
 
-//lever le commentaire pour afficher le résultat.// echo calcule (5, '*', 5);
+/*lever le commentaire pour afficher le résultat.*/ //echo calcule (5, '*', 5);
 
 ?>

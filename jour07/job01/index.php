@@ -5,8 +5,6 @@ if(isset($_POST["Reset"])) {
     unset ($_SESSION['nbvisites']);   
 }
 
-    var_dump($_SESSION);
-
     if(isset($_SESSION['nbvisites'])) {
         $_SESSION['nbvisites']++;
 }
